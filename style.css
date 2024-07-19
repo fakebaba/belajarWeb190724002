@@ -1,0 +1,24 @@
+* {
+    color: white;
+}
+
+th {
+    color: black;
+}
+
+body {
+    background: darkblue;
+}
+
+h1 {
+    color: gold;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+#subtitle {
+    font-size: 24px;
+    font-weight: 500;
+}

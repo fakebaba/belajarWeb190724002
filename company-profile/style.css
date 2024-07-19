@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("https://img.pikbest.com/ai/illus_our/20230423/27d4bc4dd14517f0375ab9615f9ac431.jpg");
+    background-size: cover;
+}
+
+.container {
+    min-height: 100vh;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+}
+
+#header {
+    padding-block: 40px;
+    background-color: #fba66b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#header h1 {
+    font-size: 40px;
+}
+
+#menu {
+    background-color: #4a91dc;
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid white;
+}
+
+#content {
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row-reverse; */
+}
+
+#content-left {
+    width: 70%;
+    min-height: 500px;
+    /* background-color: #5205ed; */
+    padding-inline: 20px;
+    box-shadow: 4px 6px 5px #888;
+    padding-bottom: 20px;
+}
+
+.judul {
+    background-color: orangered;
+    margin-block: 20px;
+    color: white;
+    padding-block: 16px;
+    font-size: 17px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+#yt {
+    width: 300;
+    height: 250;
+    margin-right: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+#content-right {
+    width: 30%;
+    min-height: 500px;
+    /* background-color: brown; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#content-right img {
+    width: 70%;
+}
+
+#sosmed {
+    display: flex;
+    gap: 20px;
+}
+
+#sosmed img {
+    width: 35px;
+}
+
+#footer {
+    margin-top: 20px;
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+    background: #4a91dc;
+    color: white;
+}
+
+/* ----------------------- CSS Gallery ----------------------------- */
+
+.boxGallery {
+    width: 47.5%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.boxGallery:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.427);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.boxGallery img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.boxGallery p,
+.boxGallery h3 {
+    padding-inline: 20px;
+    padding-bottom: 10px;
+}
+
+.boxGallery h3 {
+    font-size: 25px;
+}
+
+#gallery {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+/* ----------------------- CSS Contact ----------------------------- */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.form-group input,
+textarea {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+}
+
+textarea {
+    width: 96%;
+    height: 200px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding-block: 10px;
+    background-color: #4a91dc;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+}
+
+#maps {
+    width: 100%;
+    height: 400px;
+}
